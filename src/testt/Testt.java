@@ -37,9 +37,12 @@ public class Testt {
         int edadd = leer.nextInt();
         //Ejercicio 5 Scanner
         //Define una variable de tipo boolean, double y char. Guarda información en ellas a través del Scanner.
+        System.out.println("Ingrese verdadero o falso");
+        boolean var= leer.nextBoolean();
         System.out.println("Ingrese un numero decimal");
-        double deci = leer.nextDouble();
-        
+        double deci= leer.nextDouble();
+        System.out.println("Ingrese un caracter");
+        char letra=leer.next().charAt(0);
         //DETECCION DE ERRORES
         
         Scanner mensaje = new Scanner(System.in);
