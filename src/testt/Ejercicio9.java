@@ -31,7 +31,7 @@ Nota: recordar el uso de la sentencia break.*/
             num=leer.nextInt();
             x++;
             if (num>0){
-             sum=sum+num;   
+            sum=sum+num;   
             }
         } while (x<20 && num!=0);
         if (num==0){
