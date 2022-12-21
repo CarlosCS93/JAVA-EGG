@@ -29,22 +29,24 @@ ingresado seguido de tantos asteriscos como indique su valor. Por ejemplo:
         System.out.println("Ingrese un valor comprendido entre 1 y 20");
         
         
-        for (int j=0; j<3;j++){
+        for (int i=0; i<4;i++){
             System.out.println();
             num=leer.nextInt();
-            if (num <= 20){
-                System.out.print(num +" ");
-            } else {
+            if (num > 0 && num < 20 ){
+                System.out.print(num + " " );
+            }else if (num<0 || num>20){
+                System.out.println ("Numero fuera de rango entre (1-20)" );
                 break;
             }
-            for (int i=0; i<num;i++ ){
-                System.out.print("*");
-                System.out.print(" ");
+            for (int j=0; j<num;j++ ){
+                System.out.print("*" + " ");
+                
+                
             }
+        System.out.println();
+    
+            
         }
-        
-        System.out.println ("Numero fuera de rango entre (1-20)" );
-        
         
         
         
